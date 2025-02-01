@@ -6,4 +6,4 @@ goodbye Branch 1
 
 Goodbye Branch 2 edit
 Newbranch commit 1
-
+new commit 2
