@@ -5,3 +5,5 @@ another try
 goodbye Branch 1
 
 Goodbye Branch 2 edit
+
+Master commit 1
