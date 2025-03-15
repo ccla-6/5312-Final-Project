@@ -30,7 +30,7 @@ mkdir -p $TRIMDIR
 ADAPTERS=/isg/shared/apps/Trimmomatic/0.39/adapters/TruSeq3-PE-2.fa
 
 # sample bash array
-SAMPLELIST=(son mom dad)
+SAMPLELIST=(SRR24300331 SRR24300332 SRR24300333 SRR24300334 SRR24300335 SRR24300345 SRR24300356 SRR24300357)
 
 # run trimmomatic
 
