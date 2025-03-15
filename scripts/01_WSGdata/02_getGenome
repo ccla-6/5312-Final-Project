@@ -23,5 +23,5 @@ cd $OUTDIR
 # this is modified version of GRCh38 that corrects some errors. GIAB uses this for their benchmarking work. 
     # "with masked false duplications and contaminations, as well as decoy sequences from CHM13, which we are now using for GIAB analyses"
     #  https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02863-7
-wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/#:~:text=GCF_000002285.5_Dog10K_Boxer_Tasha_genomic.fna.gz 
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.3_CanFam3.1/GCF_000002285.3_CanFam3.1_genomic.fna.gz 
 gunzip *gz
