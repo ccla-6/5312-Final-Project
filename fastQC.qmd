@@ -1,0 +1,35 @@
+---
+title: "Fastqc Analysis of Final Project Dataset"
+author: "Charlie Clarke"
+format: html
+editor: visual
+---
+
+## Data Set Access
+
+Data Stored in SRA PRJNA961733
+
+## Basic Data Set Information
+
+The SRA Run Table is displaying 10 Golden retriever entries when only 8 were utilized in the analysis. Originally, I started by downloading all 10 only to realize that two samples were run on a different type of sequencer. The 8 utilized samples were run on the Illumina HiSeq 4000 while the 2 additional samples were run on the Illumina NovaSeq 6000 platform.
+
+```{r}
+#| echo: false
+#| label: SRA-Metadata
+#| tbl-cap: "Table 1. Shows all of the golden retriever samples included in this dataset."
+
+library(readr)
+library(dplyr)
+library(knitr)
+df=read_csv("SraRunTable.csv")
+kable(df)
+
+```
+
+The general statistics for each sample are as follows in the multiQC Report:
+
+![Figure 1. General statistics of the Raw Fastqc data](genstats.png)
+
+The duplication rate here is clearly higher got the two samples that were run in the illumina novaseq 6000.
+
+![Figure 2. Quality for all samples](images/clipboard-628996499.png)
