@@ -1,0 +1,36 @@
+Looking to launch executable "/isg/shared/apps/bwa-mem2/2.1/bwa-mem2.avx", simd = .avx
+samblaster: Version 0.1.24
+Launching executable "/isg/shared/apps/bwa-mem2/2.1/bwa-mem2.avx"
+samblaster: Inputting from stdin
+samblaster: Outputting to stdout
+-----------------------------
+Executing in AVX mode!!
+-----------------------------
+* SA compression enabled with xfactor: 8
+* Ref file: ../../results/03_Alignment/bwa_index/CanFam4.0
+* Entering FMI_search
+* Index file found. Loading index from ../../results/03_Alignment/bwa_index/CanFam4.0.bwt.2bit.64
+* Reference seq len for bi-index = 4403698311
+* sentinel-index: 4403369887
+* Count:
+0,	1
+1,	1292388690
+2,	2201849156
+3,	3111309622
+4,	4403698311
+
+* Reading other elements of the index from files ../../results/03_Alignment/bwa_index/CanFam4.0
+* Index prefix: ../../results/03_Alignment/bwa_index/CanFam4.0
+* Read 0 ALT contigs
+* Done reading Index!!
+* Reading reference genome..
+* Binary seq file = ../../results/03_Alignment/bwa_index/CanFam4.0.0123
+* Reference genome size: 4403698310 bp
+* Done reading reference genome !!
+
+[E::main_mem] fail to open file `../../results/02_qc/trimmed_fastq/_trim.1.fq.gz'.
+samblaster: Input file is empty. Exiting.
+
+[main_samview] fail to read the header from "-".
+samtools sort: failed to read header from "-"
+samtools index: "../../results/03_Alignment/bwa_align/.bam" is in a format that cannot be usefully indexed

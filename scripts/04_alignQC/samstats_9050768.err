@@ -1,0 +1,25 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+samtools stats: failed to read header for "../../results/03_Alignment/bwa_align/SRR24300334.bam"
+samtools stats: failed to read header for "../../results/03_Alignment/bwa_align/SRR24300356.bam"
+
+  /// MultiQC 🔍 | v1.15
+
+|           multiqc | Search path : /scratch/cclarke/11_final_proj/5312-Final-Project/results/04_alignQC/samstats
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 10/10  
+|          samtools | Found 7 stats reports
+|           multiqc | Report      : ../../results/04_alignQC/samstats/multiqc/multiqc_report.html
+|           multiqc | Data        : ../../results/04_alignQC/samstats/multiqc/multiqc_data
+|           multiqc | MultiQC complete

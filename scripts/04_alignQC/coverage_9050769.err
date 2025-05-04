@@ -1,0 +1,5 @@
+bamtools merge ERROR: could not open input BAM file(s)... Aborting.
+bamtools filter ERROR: could not open input files for reading.
+
+*****
+***** ERROR: Requested column 4, but database file stdin only has fields 1 - 0.

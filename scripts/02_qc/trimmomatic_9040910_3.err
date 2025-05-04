@@ -1,0 +1,11 @@
+TrimmomaticPE: Started with arguments:
+ -threads 4 ../../data/WGS/SRR24300335_1.fastq.gz ../../data/WGS/SRR24300335_2.fastq.gz ../../results/02_qc/trimmed_fastq/SRR24300335_trim.1.fq.gz ../../results/02_qc/trimmed_fastq/SRR24300335_trim_orphans.1.fq.gz ../../results/02_qc/trimmed_fastq/SRR24300335_trim.2.fq.gz ../../results/02_qc/trimmed_fastq/SRR24300335_trim_orphans.2.fq.gz ILLUMINACLIP:/isg/shared/apps/Trimmomatic/0.39/adapters/TruSeq3-PE-2.fa:2:30:10 SLIDINGWINDOW:4:15 MINLEN:45
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 93363379 Both Surviving: 87992673 (94.25%) Forward Only Surviving: 4488616 (4.81%) Reverse Only Surviving: 585716 (0.63%) Dropped: 296374 (0.32%)
+TrimmomaticPE: Completed successfully

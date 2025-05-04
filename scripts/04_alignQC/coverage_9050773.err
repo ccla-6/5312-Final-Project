@@ -1,0 +1,2 @@
+/var/spool/slurm/slurmd/job9050773/slurm_script: line 34: syntax error near unexpected token `"faidx"'
+/var/spool/slurm/slurmd/job9050773/slurm_script: line 34: `echo("faidx")'
