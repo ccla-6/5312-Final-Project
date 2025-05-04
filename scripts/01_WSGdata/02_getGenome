@@ -16,12 +16,87 @@ hostname
 date
 
 
-OUTDIR=../../genome
+OUTDIR=../../genome/
 mkdir -p $OUTDIR
 cd $OUTDIR
 
 # this is modified version of GRCh38 that corrects some errors. GIAB uses this for their benchmarking work. 
     # "with masked false duplications and contaminations, as well as decoy sequences from CHM13, which we are now using for GIAB analyses"
     #  https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02863-7
-wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.3_CanFam3.1/GCF_000002285.3_CanFam3.1_genomic.fna.gz 
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr1.fna.gz 
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr2.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr3.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr4.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr5.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr6.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr7.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr8.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr9.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr10.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr11.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr12.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr13.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr14.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr15.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr16.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr17.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr18.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr19.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr20.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr21.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr22.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr23.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr24.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr25.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr26.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr27.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr28.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr29.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr30.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr31.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr32.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr33.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr34.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr35.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr36.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr37.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.5_Dog10K_Boxer_Tasha/GCF_000002285.5_Dog10K_Boxer_Tasha_assembly_structure/Primary_Assembly/assembled_chromosomes/FASTA/chr38.fna.gz
+
 gunzip *gz
