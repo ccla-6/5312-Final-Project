@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR24300332_trim.1	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300332_trim.1_fastqc.zip
+FastQC	all_sections	SRR24300335_trim.1	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300335_trim.1_fastqc.zip
+FastQC	all_sections	SRR24300331_trim.2	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300331_trim.2_fastqc.zip
+FastQC	all_sections	SRR24300350_trim.2	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300350_trim.2_fastqc.zip
+FastQC	all_sections	SRR24300357_trim.2	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300357_trim.2_fastqc.zip
+FastQC	all_sections	SRR24300333_trim.2	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300333_trim.2_fastqc.zip
+FastQC	all_sections	SRR24300350_trim.1	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300350_trim.1_fastqc.zip
+FastQC	all_sections	SRR24300349_trim.1	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300349_trim.1_fastqc.zip
+FastQC	all_sections	SRR24300335_trim.2	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300335_trim.2_fastqc.zip
+FastQC	all_sections	SRR24300333_trim.1	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300333_trim.1_fastqc.zip
+FastQC	all_sections	SRR24300332_trim.2	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300332_trim.2_fastqc.zip
+FastQC	all_sections	SRR24300331_trim.1	/scratch/cclarke/11_final_proj/5312-Final-Project/results/02_qc/fastqc_trimmed/SRR24300331_trim.1_fastqc.zip
