@@ -1,0 +1,77 @@
+---
+title: "Alignment QC, and Variant Calling"
+author: "Charlie Clarke"
+format: html
+editor: visual
+---
+
+## Alignment QC and Variant Calling
+
+The alignment of the the 5 samples to the CanFam genome experienced a handful of hiccups, but ultimately was successful. The variant calling however was not able to be completed due I think in part to how the genome was formatted.
+
+## Alignment QC
+
+Using SRR24300331.bam as an example we can see that the samstats and multiQC files show an average quality of 38.9 and 24800473590 total bases mapped.
+
+| Sample Name | Error rate | M Non-Primary | M Reads Mapped | \% Mapped | \% Proper Pairs | M Total seqs |
+|:----------|:----------|:----------|:----------|:----------|:----------|:----------|
+| SRR24300331 | 0.50% | 0.0 | 171.1 | 97.6% | 95.4% | 175.3 |
+| SRR24300332 | 0.51% | 0.0 | 145.4 | 97.6% | 95.3% | 149.0 |
+| SRR24300333 | 0.59% | 0.0 | 153.6 | 96.4% | 90.5% | 159.3 |
+| SRR24300335 | 0.50% | 0.0 | 171.7 | 97.6% | 95.4% | 176.0 |
+| SRR24300349 | 5.10% | 0.0 | 416.2 | 99.4% | 71.1% | 418.9 |
+| SRR24300350 | 3.96% | 0.0 | 434.5 | 99.5% | 77.1% | 436.9 |
+| SRR24300357 | 0.51% | 0.0 | 244.5 | 96.2% | 93.4% | 254.2 |
+
+MultiQC of allignments
+
+![Alignment Plot](images/samtools_alignment_plot.png)
+
+## Variant Calling
+
+After creating the freebayes.query.txt file with the genome parameters listed in the paper chr37:18000042-20145745, it became clear to me that something went wrong with the way that the genome was labeled.
+
+This generated an empty data frame with 17 headers and no outputs. After playing around with the parameters I was able to figure out that it has something to do with the nomenclature of the genome and potentially the way that it is indexed.
+
+This is how each chromosome is labeled :
+
+NC_006583.4 Canis lupus familiaris isolate Tasha breed boxer chromosome 1, alternate assembly Dog10K_Boxer_Tasha, whole genome shotgun sequence.
+
+For chromosome 37 the unique identifier was NC_006589.4
+
+```{r}
+library (tidyverse)
+library (knitr)
+
+df <- read.table("freebayes.query_final.txt.gz", header=TRUE, comment.char="")
+colnames(df) <- colnames(df) %>% str_remove("^X[.0-9]+")
+df <- filter(df, !str_detect(ALT, ",")) %>%
+  mutate(AB=as.numeric(AB))
+
+kable(head(df))
+
+
+```
+
+First I measured the allele balance:
+
+```{r}
+#qual
+ggplot(df, aes(x=POS, y=AB, color=QUAL > 30)) +
+  geom_point(size=0.2)
+```
+
+Then depth colored by quality:
+
+```{r}
+#Depth
+ggplot(df, aes(x=POS, y=DP, color=QUAL > 30)) +
+  geom_point(size=0.2) +
+  ylim(0,400)
+```
+
+```{r}
+
+```
+
+Finally after annotating all of the outputs I still am unclear exactly which samples are long lived and which samples are short lived.
