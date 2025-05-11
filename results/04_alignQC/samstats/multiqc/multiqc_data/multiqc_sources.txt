@@ -1,0 +1,8 @@
+Module	Section	Sample Name	Source
+Samtools	stats	SRR24300332	/scratch/cclarke/11_final_proj/5312-Final-Project/results/04_alignQC/samstats/SRR24300332.stats
+Samtools	stats	SRR24300333	/scratch/cclarke/11_final_proj/5312-Final-Project/results/04_alignQC/samstats/SRR24300333.stats
+Samtools	stats	SRR24300350	/scratch/cclarke/11_final_proj/5312-Final-Project/results/04_alignQC/samstats/SRR24300350.stats
+Samtools	stats	SRR24300331	/scratch/cclarke/11_final_proj/5312-Final-Project/results/04_alignQC/samstats/SRR24300331.stats
+Samtools	stats	SRR24300349	/scratch/cclarke/11_final_proj/5312-Final-Project/results/04_alignQC/samstats/SRR24300349.stats
+Samtools	stats	SRR24300357	/scratch/cclarke/11_final_proj/5312-Final-Project/results/04_alignQC/samstats/SRR24300357.stats
+Samtools	stats	SRR24300335	/scratch/cclarke/11_final_proj/5312-Final-Project/results/04_alignQC/samstats/SRR24300335.stats
