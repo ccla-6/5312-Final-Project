@@ -1,0 +1,19 @@
+--2025-05-11 13:00:14--  https://ftp.ensembl.org/pub/release-104/gff3/canis_lupus_familiaris/Canis_lupus_familiaris.CanFam3.1.104.chromosome.37.gff3.gz
+Resolving ftp.ensembl.org (ftp.ensembl.org)... 193.62.193.169
+Connecting to ftp.ensembl.org (ftp.ensembl.org)|193.62.193.169|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 265822 (260K) [application/x-gzip]
+Saving to: '../../results/06_Annotate/bcftoolsCSQ/Canis_lupus_familiaris.CanFam3.1.104.chromosome.37.gff3.gz.1'
+
+     0K .......... .......... .......... .......... .......... 19%  320K 1s
+    50K .......... .......... .......... .......... .......... 38%  635K 0s
+   100K .......... .......... .......... .......... .......... 57% 47.4M 0s
+   150K .......... .......... .......... .......... .......... 77% 38.2M 0s
+   200K .......... .......... .......... .......... .......... 96%  648K 0s
+   250K .........                                             100% 98.3M=0.3s
+
+2025-05-11 13:00:14 (826 KB/s) - '../../results/06_Annotate/bcftoolsCSQ/Canis_lupus_familiaris.CanFam3.1.104.chromosome.37.gff3.gz.1' saved [265822/265822]
+
+Parsing ../../results/06_Annotate/bcftoolsCSQ/canfam_chr37.gff3 ...
+[E::hts_open_format] Failed to open file "../../results/06_Annotate/bcftoolsCSQ/canfam_chr37.gff3" : No such file or directory
+Failed to read ../../results/06_Annotate/bcftoolsCSQ/canfam_chr37.gff3

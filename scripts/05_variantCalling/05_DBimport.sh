@@ -31,4 +31,5 @@ sed -i 's/^/-V /' ${INDIR}/args.txt
 gatk --java-options "-Xmx10g -Xms4g" GenomicsDBImport \
   --genomicsdb-workspace-path ${OUTDIR} \
   --overwrite-existing-genomicsdb-workspace true \
+  --L NC_006589.4:18000042-20145745 \
   --arguments_file ${INDIR}/args.txt

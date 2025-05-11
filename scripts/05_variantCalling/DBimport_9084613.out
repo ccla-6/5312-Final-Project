@@ -1,0 +1,31 @@
+xanadu-05
+Sun May 11 12:06:16 EDT 2025
+12:06:19.754 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+12:06:19.928 INFO  GenomicsDBImport - ------------------------------------------------------------
+12:06:19.928 INFO  GenomicsDBImport - The Genome Analysis Toolkit (GATK) v4.0.0.0
+12:06:19.928 INFO  GenomicsDBImport - For support and documentation go to https://software.broadinstitute.org/gatk/
+12:06:19.928 INFO  GenomicsDBImport - Executing as cclarke@xanadu-05 on Linux v3.10.0-1160.45.1.el7.x86_64 amd64
+12:06:19.928 INFO  GenomicsDBImport - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_92-b14
+12:06:19.929 INFO  GenomicsDBImport - Start Date/Time: May 11, 2025 12:06:19 PM EDT
+12:06:19.929 INFO  GenomicsDBImport - ------------------------------------------------------------
+12:06:19.929 INFO  GenomicsDBImport - ------------------------------------------------------------
+12:06:19.929 INFO  GenomicsDBImport - HTSJDK Version: 2.13.2
+12:06:19.929 INFO  GenomicsDBImport - Picard Version: 2.17.2
+12:06:19.929 INFO  GenomicsDBImport - HTSJDK Defaults.COMPRESSION_LEVEL : 1
+12:06:19.929 INFO  GenomicsDBImport - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+12:06:19.929 INFO  GenomicsDBImport - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+12:06:19.929 INFO  GenomicsDBImport - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+12:06:19.929 INFO  GenomicsDBImport - Deflater: IntelDeflater
+12:06:19.929 INFO  GenomicsDBImport - Inflater: IntelInflater
+12:06:19.929 INFO  GenomicsDBImport - GCS max retries/reopens: 20
+12:06:19.929 INFO  GenomicsDBImport - Using google-cloud-java patch 6d11bef1c81f885c26b2b56c8616b7a705171e4f from https://github.com/droazen/google-cloud-java/tree/dr_all_nio_fixes
+12:06:19.929 INFO  GenomicsDBImport - Initializing engine
+12:06:30.385 INFO  IntervalArgumentCollection - Processing 80419774 bp from intervals
+12:06:30.388 INFO  GenomicsDBImport - Done initializing engine
+12:06:30.670 INFO  GenomicsDBImport - Vid Map JSON file will be written to ../../results/05_variantCalling/gatk/db/vidmap.json
+12:06:30.671 INFO  GenomicsDBImport - Callset Map JSON file will be written to ../../results/05_variantCalling/gatk/db/callset.json
+12:06:30.671 INFO  GenomicsDBImport - Complete VCF Header will be written to ../../results/05_variantCalling/gatk/db/vcfheader.vcf
+12:06:30.671 INFO  GenomicsDBImport - Importing to array - ../../results/05_variantCalling/gatk/db/genomicsdb_array
+12:06:30.720 INFO  ProgressMeter - Starting traversal
+12:06:30.720 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Batches Processed   Batches/Minute
+12:06:47.821 INFO  GenomicsDBImport - Importing batch 1 with 5 samples

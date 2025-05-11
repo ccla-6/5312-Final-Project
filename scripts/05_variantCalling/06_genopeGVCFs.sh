@@ -22,7 +22,7 @@ OUTDIR=../../results/05_variantCalling/gatk
 
 
 # set a variable for the reference genome location
-GEN=../../genome/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta
+GEN=../../genome/canfam4.0.fna
 
 gatk GenotypeGVCFs \
     -R ${GEN} \

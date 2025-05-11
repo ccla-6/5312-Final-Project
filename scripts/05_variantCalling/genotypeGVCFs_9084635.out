@@ -1,0 +1,32 @@
+xanadu-05
+Sun May 11 12:48:11 EDT 2025
+12:48:14.309 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+12:48:14.436 INFO  GenotypeGVCFs - ------------------------------------------------------------
+12:48:14.436 INFO  GenotypeGVCFs - The Genome Analysis Toolkit (GATK) v4.0.0.0
+12:48:14.436 INFO  GenotypeGVCFs - For support and documentation go to https://software.broadinstitute.org/gatk/
+12:48:14.436 INFO  GenotypeGVCFs - Executing as cclarke@xanadu-05 on Linux v3.10.0-1160.45.1.el7.x86_64 amd64
+12:48:14.436 INFO  GenotypeGVCFs - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_92-b14
+12:48:14.437 INFO  GenotypeGVCFs - Start Date/Time: May 11, 2025 12:48:14 PM EDT
+12:48:14.437 INFO  GenotypeGVCFs - ------------------------------------------------------------
+12:48:14.437 INFO  GenotypeGVCFs - ------------------------------------------------------------
+12:48:14.437 INFO  GenotypeGVCFs - HTSJDK Version: 2.13.2
+12:48:14.437 INFO  GenotypeGVCFs - Picard Version: 2.17.2
+12:48:14.438 INFO  GenotypeGVCFs - HTSJDK Defaults.COMPRESSION_LEVEL : 1
+12:48:14.438 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+12:48:14.438 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+12:48:14.438 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+12:48:14.438 INFO  GenotypeGVCFs - Deflater: IntelDeflater
+12:48:14.438 INFO  GenotypeGVCFs - Inflater: IntelInflater
+12:48:14.438 INFO  GenotypeGVCFs - GCS max retries/reopens: 20
+12:48:14.438 INFO  GenotypeGVCFs - Using google-cloud-java patch 6d11bef1c81f885c26b2b56c8616b7a705171e4f from https://github.com/droazen/google-cloud-java/tree/dr_all_nio_fixes
+12:48:14.438 INFO  GenotypeGVCFs - Initializing engine
+12:48:15.236 INFO  GenotypeGVCFs - Done initializing engine
+12:48:15.975 INFO  ProgressMeter - Starting traversal
+12:48:15.976 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+12:48:39.827 INFO  ProgressMeter - NC_006589.4:18001929              0.4                  1000           2515.6
+12:48:49.997 INFO  ProgressMeter - NC_006589.4:18628261              0.6                343000         604920.5
+12:49:00.823 INFO  ProgressMeter - NC_006589.4:18944366              0.7                516000         690347.2
+12:49:15.319 INFO  ProgressMeter - NC_006589.4:19723385              1.0                949000         959522.8
+12:49:18.586 INFO  ProgressMeter - NC_006589.4:20144324              1.0               1179887        1130701.5
+12:49:18.586 INFO  ProgressMeter - Traversal complete. Processed 1179887 total variants in 1.0 minutes.
+12:49:18.605 INFO  GenotypeGVCFs - Shutting down engine

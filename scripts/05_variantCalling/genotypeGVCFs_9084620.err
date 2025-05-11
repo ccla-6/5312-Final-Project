@@ -1,0 +1,13 @@
+Using GATK jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=1 -jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar GenotypeGVCFs -R ../../genome/canfam_4.0.fna -V gendb://../../results/05_variantCalling/gatk/db -O ../../results/05_variantCalling/gatk/gatk.vcf
+[May 11, 2025 12:23:24 PM EDT] org.broadinstitute.hellbender.tools.walkers.GenotypeGVCFs done. Elapsed time: 0.01 minutes.
+Runtime.totalMemory()=1447034880
+***********************************************************************
+
+A USER ERROR has occurred: The specified fasta file (file:///scratch/cclarke/11_final_proj/5312-Final-Project/scripts/05_variantCalling/../../genome/canfam_4.0.fna) does not exist.
+
+***********************************************************************
+Set the system property GATK_STACKTRACE_ON_USER_EXCEPTION (--java-options '-DGATK_STACKTRACE_ON_USER_EXCEPTION=true') to print the stack trace.
+[bgzip] No such file or directory: ../../results/05_variantCalling/gatk/gatk.vcf
+tbx_index_build failed: ../../results/05_variantCalling/gatk/gatk.vcf.gz

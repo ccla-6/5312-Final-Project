@@ -1,0 +1,23 @@
+xanadu-05
+Sun May 11 12:23:21 EDT 2025
+12:23:24.439 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+12:23:24.581 INFO  GenotypeGVCFs - ------------------------------------------------------------
+12:23:24.581 INFO  GenotypeGVCFs - The Genome Analysis Toolkit (GATK) v4.0.0.0
+12:23:24.581 INFO  GenotypeGVCFs - For support and documentation go to https://software.broadinstitute.org/gatk/
+12:23:24.581 INFO  GenotypeGVCFs - Executing as cclarke@xanadu-05 on Linux v3.10.0-1160.45.1.el7.x86_64 amd64
+12:23:24.581 INFO  GenotypeGVCFs - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_92-b14
+12:23:24.582 INFO  GenotypeGVCFs - Start Date/Time: May 11, 2025 12:23:24 PM EDT
+12:23:24.582 INFO  GenotypeGVCFs - ------------------------------------------------------------
+12:23:24.582 INFO  GenotypeGVCFs - ------------------------------------------------------------
+12:23:24.582 INFO  GenotypeGVCFs - HTSJDK Version: 2.13.2
+12:23:24.582 INFO  GenotypeGVCFs - Picard Version: 2.17.2
+12:23:24.582 INFO  GenotypeGVCFs - HTSJDK Defaults.COMPRESSION_LEVEL : 1
+12:23:24.582 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+12:23:24.582 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+12:23:24.582 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+12:23:24.582 INFO  GenotypeGVCFs - Deflater: IntelDeflater
+12:23:24.582 INFO  GenotypeGVCFs - Inflater: IntelInflater
+12:23:24.583 INFO  GenotypeGVCFs - GCS max retries/reopens: 20
+12:23:24.583 INFO  GenotypeGVCFs - Using google-cloud-java patch 6d11bef1c81f885c26b2b56c8616b7a705171e4f from https://github.com/droazen/google-cloud-java/tree/dr_all_nio_fixes
+12:23:24.583 INFO  GenotypeGVCFs - Initializing engine
+12:23:24.728 INFO  GenotypeGVCFs - Shutting down engine

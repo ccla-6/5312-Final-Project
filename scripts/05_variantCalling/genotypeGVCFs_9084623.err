@@ -1,0 +1,13 @@
+Using GATK jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=1 -jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar GenotypeGVCFs -R ../../genome/canfam4.0.fna -V gendb://../../results/05_variantCalling/gatk/db -O ../../results/05_variantCalling/gatk/gatk.vcf
+[May 11, 2025 12:34:27 PM EDT] org.broadinstitute.hellbender.tools.walkers.GenotypeGVCFs done. Elapsed time: 0.01 minutes.
+Runtime.totalMemory()=2108686336
+***********************************************************************
+
+A USER ERROR has occurred: Couldn't connect to GenomicsDB because the vidmap, callset JSON files, or gVCF Header (vidmap.json,callset.json,vcfheader.vcf) could not be read from GenomicsDB workspace /scratch/cclarke/11_final_proj/5312-Final-Project/scripts/05_variantCalling/../../results/05_variantCalling/gatk/db
+
+***********************************************************************
+Set the system property GATK_STACKTRACE_ON_USER_EXCEPTION (--java-options '-DGATK_STACKTRACE_ON_USER_EXCEPTION=true') to print the stack trace.
+[bgzip] No such file or directory: ../../results/05_variantCalling/gatk/gatk.vcf
+tbx_index_build failed: ../../results/05_variantCalling/gatk/gatk.vcf.gz

@@ -1,0 +1,24 @@
+--2025-05-11 13:01:32--  https://ftp.ensembl.org/pub/release-104/gff3/canis_lupus_familiaris/Canis_lupus_familiaris.CanFam3.1.104.chromosome.37.gff3.gz
+Resolving ftp.ensembl.org (ftp.ensembl.org)... 193.62.193.169
+Connecting to ftp.ensembl.org (ftp.ensembl.org)|193.62.193.169|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 265822 (260K) [application/x-gzip]
+Saving to: '../../results/06_Annotate/bcftoolsCSQ/Canis_lupus_familiaris.CanFam3.1.104.chromosome.37.gff3.gz'
+
+     0K .......... .......... .......... .......... .......... 19%  321K 1s
+    50K .......... .......... .......... .......... .......... 38%  642K 0s
+   100K .......... .......... .......... .......... .......... 57% 46.6M 0s
+   150K .......... .......... .......... .......... .......... 77% 1.26M 0s
+   200K .......... .......... .......... .......... .......... 96% 1.24M 0s
+   250K .........                                             100% 91.0M=0.3s
+
+2025-05-11 13:01:32 (830 KB/s) - '../../results/06_Annotate/bcftoolsCSQ/Canis_lupus_familiaris.CanFam3.1.104.chromosome.37.gff3.gz' saved [265822/265822]
+
+gzip: ../../results/06_Annotate/bcftoolsCSQ/Canis_lupus_familiaris.CanFam3.1.104.chromosome.37.gff3 already exists;	not overwritten
+Parsing ../../results/06_Annotate/bcftoolsCSQ//Canis_lupus_familiaris.CanFam3.1.104.chromosome.37.gff3.gz ...
+Warning: Ignoring GFF feature with unknown phase .. 37	ensembl	exon	150170	151366	.	-	.	Parent=transcript:ENSCAFT00000046581;Name=ENSCAFE00000305437;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSCAFE00000305437;rank=1;version=1
+Indexed 590 transcripts, 8276 exons, 7891 CDSs, 1077 UTRs
+Ignored the following biotypes:
+	183x	.. lncRNA
+Warning: 9803 warnings were suppressed, run with `--verbose 2` to see them all
+Calling...
