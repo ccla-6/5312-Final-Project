@@ -24,8 +24,8 @@ module load samtools/1.16.1
 OUTDIR=../../results/04_alignQC/bedtoolsnuc
 mkdir -p ${OUTDIR}
 
-GENOME=../../genome/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta
-WIN1KB=../../results/04_alignQC/coverage/GRCh38_1kb.bed
+GENOME=../../genome/canfam4.0.fna
+WIN1KB=../../results/04_alignQC/coverage/CanFam_4.0_1kb.bed
 
 # run bedtools 
 bedtools nuc -fi ${GENOME} -bed ${WIN1KB} | bgzip >${OUTDIR}/nuc.bed.gz

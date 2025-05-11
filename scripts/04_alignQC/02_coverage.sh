@@ -28,16 +28,16 @@ OUTDIR=../../results/04_alignQC/coverage
 mkdir -p $OUTDIR
 
 # create faidx genome index file
-GENOME=../../genome/GCF_000002285.3_CanFam3.1_genomic.fna
-FAI=../../genome/GCF_000002285.3_CanFam3.1_genomic.fna.fai
+GENOME=../../genome/canfam4.0.fna
+FAI=../../genome/canfam4.0.fna.fai
 samtools faidx ${GENOME}
 
 # make a "genome" file, required by bedtools makewindows command, set variable for location
-GFILE=${OUTDIR}/CanFam_3.1.genome
+GFILE=${OUTDIR}/CanFam_4.0.genome
 cut -f 1-2 $FAI > $GFILE
 
 # make 1kb window bed file, set variable for location
-WIN1KB=${OUTDIR}/CanFam_3.1_1kb.bed
+WIN1KB=${OUTDIR}/CanFam_4.0_1kb.bed
 bedtools makewindows -g ${GFILE} -w 1000 >${WIN1KB}
 
 # make a list of bam files

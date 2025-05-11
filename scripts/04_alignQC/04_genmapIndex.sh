@@ -18,7 +18,7 @@ date
 module load genmap/1.3.0
 
 # define and/or create input, output directories
-GENOME=../../genome/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta
+GENOME=../../genome/canfam4.0.fna
 
 OUTDIR=../../results/04_alignQC/
 mkdir -p ${OUTDIR}

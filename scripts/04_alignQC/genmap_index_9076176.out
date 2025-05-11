@@ -1,0 +1,9 @@
+xanadu-05
+Thu May  8 14:08:20 EDT 2025
+Input does not fit into int32_t (>2GB), algorithm will need about `10n` main memory.
+It might be more or less depending on the number and length of the individual sequences.
+If you are running out of memory, you can try to reduce the memory consumption a bit by inreasing `-S`, e.g., use `-S 20` (up to 64).
+Although this will slow down the algorithm to compute the mappability.
+Create fwd Index ... done!
+Create bwd Index ... done!
+Index created successfully.
